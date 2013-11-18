@@ -1,6 +1,6 @@
 # CarrierWave::FFmpeg
 
-TODO: Write a gem description
+Simple Streamio FFmpeg wrapper for CarrierWave uploader
 
 ## Installation
 
@@ -25,6 +25,8 @@ class VideoUploader < CarrierWave::Uploader::Base
   include CarrierWave::FFmpeg
 end
 ```
+
+[example](https://gist.github.com/JiriKolarik/7525989 "CarrierWave FFmpeg Uploader") Processing on background (carrierwave_backgrounder), converting to mp4, webm and ogv with multiple resolutions (Original, 1080p, 720p)
 
 ## Contributing
 
