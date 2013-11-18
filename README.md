@@ -26,7 +26,7 @@ class VideoUploader < CarrierWave::Uploader::Base
 end
 ```
 
-[example](https://gist.github.com/JiriKolarik/7525989 "CarrierWave FFmpeg Uploader") Processing on background (carrierwave_backgrounder), converting to mp4, webm and ogv with multiple resolutions (Original, 1080p, 720p)
+[Example](https://gist.github.com/JiriKolarik/7525989 "CarrierWave FFmpeg Uploader") of CarrierWave FFmpeg Uploader processing on background (carrierwave_backgrounder), converting to mp4, webm and ogv with multiple resolutions (Original, 1080p, 720p)
 
 ## Contributing
 
